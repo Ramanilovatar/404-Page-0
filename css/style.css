@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#bg {
+    background-image: url(../404-BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg img {
+    width: 200px;
+    height: 200px;
+    font-size: 30em;
+    color: #fff;
+}
+
+#bg p {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+    font-weight: bolder;
+    font-size: 5em;
+}
